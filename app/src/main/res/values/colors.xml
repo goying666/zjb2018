@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextPrimary">#222222</color>
+
+    <!--Material Design Text color-->
+    <color name="md_text_color_display4">#868686</color>
+    <color name="md_text_color_display3">#868686</color>
+    <color name="md_text_color_display2">#868686</color>
+    <color name="md_text_color_display1">#868686</color>
+    <color name="md_text_color_headline">#222222</color>
+    <color name="md_text_color_title">#222222</color>
+    <color name="md_text_color_subhead">#222222</color>
+    <color name="md_text_color_body">#222222</color>
+    <color name="md_text_color_caption">#868686</color>
+    <color name="md_text_color_menu">#222222</color>
+    <color name="md_text_color_button">#222222</color>
+    
+    <!--Background color-->
+    <color name="title_background">#e0e0e0</color>
+</resources>

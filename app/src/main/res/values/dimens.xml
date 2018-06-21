@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+    <!--悬浮按钮-->
+    <dimen name="floating_action_button_elevation">8dp</dimen>
+
+    <!--Material Design Text Size-->
+    <dimen name="md_text_size_display4">112sp</dimen>
+    <dimen name="md_text_size_display3">56sp</dimen>
+    <dimen name="md_text_size_display2">45sp</dimen>
+    <dimen name="md_text_size_display1">34sp</dimen>
+    <dimen name="md_text_size_headline">24sp</dimen>
+    <dimen name="md_text_size_title">20sp</dimen>
+    <dimen name="md_text_size_subhead">16sp</dimen>
+    <dimen name="md_text_size_body">14sp</dimen>
+    <dimen name="md_text_size_caption">12sp</dimen>
+    <dimen name="md_text_size_menu">14sp</dimen>
+    <dimen name="md_text_size_button">14sp</dimen>
+
+    <!--Material Design vertical Size-->
+    <dimen name="md_vertical_system">24dp</dimen>
+    <dimen name="md_vertical_headline">56dp</dimen>
+    <dimen name="md_vertical_title">48dp</dimen>
+    <dimen name="md_vertical_interval">8dp</dimen>
+    <!--单行文字(1)，有图标(y)，无图画(n)-->
+    <dimen name="md_vertical_body_1yn">48dp</dimen>
+    <!--单行文字(1)，有图标(y)，有图画(y)-->
+    <dimen name="md_vertical_body_1yy">72dp</dimen>
+    <!--双行文字(1)，有图标(y)，有图画(y)-->
+    <dimen name="md_vertical_body_2yy">72dp</dimen>
+
+    <!--Material Design horizontal Size-->
+    <dimen name="md_horizontal_left_icon">16dp</dimen>
+    <dimen name="md_horizontal_left_text">36dp</dimen>
+    <dimen name="md_horizontal_right_icon">16dp</dimen>
+    <dimen name="md_horizontal_right_draw">56dp</dimen>
+    <dimen name="md_horizontal_right_second_icon">32dp</dimen>
+
+    <!--Material Design Image Size-->
+    <dimen name="md_image">40dp</dimen>
+    <dimen name="md_icon">20dp</dimen>
+
+</resources>

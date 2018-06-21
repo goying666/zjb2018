@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">zjb</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_message">消息</string>
+    <string name="title_team">队伍</string>
+    <string name="title_home">大厅</string>
+    <string name="title_game">游戏</string>
+    <string name="title_mine">我的</string>
+    <string name="title_activity_blank">BlankActivity</string>
+
+    <!--Team-->
+    <string name="button_creatTeam_text">创建队伍</string>
+    <string name="button_joinTeam_text">加入队伍</string>
+    <string name="button_myTeam_text">我的队伍</string>
+    <string name="title_team_"></string>
+
+    <!--Create Team-->
+    <string name="title_create_basic">基本信息</string>
+    <string name="title_create_time">时间</string>
+    <string name="title_create_time_today">今日</string>
+    <string name="title_create_time_tomorrow">明日</string>
+    <string name="title_create_time_weekend">本周末</string>
+
+    <string name="title_create_address">地点</string>
+    <string name="title_create_peoples">人数</string>
+    <string name="title_create_game">游戏</string>
+
+</resources>
