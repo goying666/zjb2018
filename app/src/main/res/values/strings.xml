@@ -26,4 +26,8 @@
     <string name="title_create_peoples">人数</string>
     <string name="title_create_game">游戏</string>
 
+    <string name="spinner_create_team_spendclass">消费方式</string>
+    <string name="spinner_create_team_start_date">请选择游戏日期</string>
+
+
 </resources>

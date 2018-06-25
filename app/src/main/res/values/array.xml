@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="languages">
+        <item>所有人AA</item>
+        <item>男AA女免</item>
+        <item>女AA男免</item>
+        <item>队长包场</item>
+        <item>押 金 制</item>
+    </string-array>
+
+    <!--创建队伍设置-->
+
+    <string-array name="create_team_start_date">
+        <item>今日</item>
+        <item>明日</item>
+        <item>本周末</item>
+        <item>自定义</item>
+    </string-array>
+
+</resources>
