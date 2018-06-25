@@ -741,6 +741,15 @@ public class CalendarUtil {
         return now.getTime();
     }
 
+    public static String getStringDateAfter(Date d, int day) {
+        Calendar now = Calendar.getInstance();
+        now.setTime(d);
+        now.set(Calendar.DATE, now.get(Calendar.DATE) + day);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        return sdf.format(now.getTime());
+    }
+
+
     /****
      *
      *

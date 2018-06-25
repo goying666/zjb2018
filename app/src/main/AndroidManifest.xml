@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".team.create.createTeam" />
+        <activity android:name=".team.create.createTeamBasicPeople" />
         <activity android:name=".team.join.joinTeam" />
         <activity android:name=".team.my.myTeam" />
         <activity android:name=".login.loginActivity" />

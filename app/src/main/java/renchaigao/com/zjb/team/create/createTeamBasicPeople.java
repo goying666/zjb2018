@@ -2,7 +2,6 @@ package renchaigao.com.zjb.team.create;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.DrawableRes;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.ActionBar;
@@ -10,9 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
@@ -20,7 +17,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Calendar;
 import java.util.Date;
 
 import renchaigao.com.zjb.R;
@@ -28,7 +24,11 @@ import renchaigao.com.zjb.team.create.pojo.date_week_select;
 import renchaigao.com.zjb.util.CalendarUtil;
 import renchaigao.com.zjb.util.create_team_func;
 
-public class createTeam extends AppCompatActivity implements View.OnClickListener {
+/**
+ * Created by Administrator on 2018/6/26/026.
+ */
+
+public class createTeamBasicPeople extends AppCompatActivity {
 
     private PopupWindow popupWindow;
     private ImageView id_activity_create_team_datetime_image_more, id_activity_create_team_time_image_more;
@@ -109,7 +109,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_time_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_time_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_time_image_more = true;
-                Toast.makeText(createTeam.this, "时间设置成功：" + R.string.create_team_time_morning, Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "时间设置成功：" + R.string.create_team_time_morning, Toast.LENGTH_SHORT).show();
             }
         });
         id_activity_create_team_time_selectinfo_afternoon.setOnClickListener(new View.OnClickListener() {
@@ -119,7 +119,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_time_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_time_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_time_image_more = true;
-                Toast.makeText(createTeam.this, "时间设置成功：" + R.string.create_team_time_afternoon, Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "时间设置成功：" + R.string.create_team_time_afternoon, Toast.LENGTH_SHORT).show();
             }
         });
         id_activity_create_team_time_selectinfo_evening.setOnClickListener(new View.OnClickListener() {
@@ -129,7 +129,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_time_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_time_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_time_image_more = true;
-                Toast.makeText(createTeam.this, "时间设置成功：" + R.string.create_team_time_evening, Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "时间设置成功：" + R.string.create_team_time_evening, Toast.LENGTH_SHORT).show();
             }
         });
         id_activity_create_team_time_selectinfo_night.setOnClickListener(new View.OnClickListener() {
@@ -139,7 +139,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_time_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_time_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_time_image_more = true;
-                Toast.makeText(createTeam.this, "时间设置成功：" + R.string.create_team_time_night, Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "时间设置成功：" + R.string.create_team_time_night, Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -151,7 +151,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_datetime_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_datetime_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_datetime_image_more = true;
-                Toast.makeText(createTeam.this, "日期设置成功：" + today_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "日期设置成功：" + today_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
             }
         });
         tomorrow_date_week_select.getConstraint().setOnClickListener(new View.OnClickListener() {
@@ -161,7 +161,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_datetime_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_datetime_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_datetime_image_more = true;
-                Toast.makeText(createTeam.this, "日期设置成功：" + tomorrow_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "日期设置成功：" + tomorrow_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
             }
         });
         aftertom_date_week_select.getConstraint().setOnClickListener(new View.OnClickListener() {
@@ -171,7 +171,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_datetime_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_datetime_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_datetime_image_more = true;
-                Toast.makeText(createTeam.this, "日期设置成功：" + aftertom_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "日期设置成功：" + aftertom_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
             }
         });
         friday_date_week_select.getConstraint().setOnClickListener(new View.OnClickListener() {
@@ -181,7 +181,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_datetime_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_datetime_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_datetime_image_more = true;
-                Toast.makeText(createTeam.this, "日期设置成功：" + friday_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "日期设置成功：" + friday_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
             }
         });
         saturday_date_week_select.getConstraint().setOnClickListener(new View.OnClickListener() {
@@ -191,7 +191,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_datetime_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_datetime_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_datetime_image_more = true;
-                Toast.makeText(createTeam.this, "日期设置成功：" + saturday_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "日期设置成功：" + saturday_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
             }
         });
         sunday_date_week_select.getConstraint().setOnClickListener(new View.OnClickListener() {
@@ -201,7 +201,7 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
                 id_activity_create_team_datetime_image_more.setImageResource(R.drawable.more_down);
                 id_activity_create_team_datetime_selectinfo.setVisibility(View.GONE);
                 click_id_activity_create_team_datetime_image_more = true;
-                Toast.makeText(createTeam.this, "日期设置成功：" + sunday_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(createTeamBasicPeople.this, "日期设置成功：" + sunday_date_week_select.getDate_textView().getText(), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -399,18 +399,6 @@ public class createTeam extends AppCompatActivity implements View.OnClickListene
     private boolean click_id_activity_create_team_datetime_image_more,click_id_activity_create_team_time_image_more;
     private String TAG = "createTeam";
 
-    @Override
-    public void onClick(View v) {
-        Log.i(TAG, "onClick: in there");
-        switch (v.getId()) {
-            case R.id.id_activity_create_team_datetime_image_more:
-
-//                this.setMenu("date");
-                break;
-            default:
-                break;
-        }
-    }
 
     private void selectOneConstraintLayoutVisible(Integer selectOne) {
         id_activity_create_team_datetime.setVisibility(create_team_func.retViewVisible(selectOne, 1));
