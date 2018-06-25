@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_activity_create_team_button">
+    <!--按键部分-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_create_team_cancle"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:background="#fafafa"
+                android:text="放弃"
+                android:textColor="#63b5f5"
+                android:textSize="@dimen/md_text_size_button" />
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:background="#fafafa"
+                android:textColor="#63b5f5"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:background="#63b5f5"
+                android:elevation="10dp"
+                android:text="下一步"
+                android:textColor="#fafafa"
+                android:textSize="@dimen/md_text_size_button" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_create_information"
+            android:layout_width="320dp"
+            android:layout_height="240dp"
+            android:background="@drawable/note_background"
+            android:text="123" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

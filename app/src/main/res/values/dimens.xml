@@ -42,6 +42,8 @@
     <dimen name="md_vertical_body_1yy">72dp</dimen>
     <!--双行文字(1)，有图标(y)，有图画(y)-->
     <dimen name="md_vertical_body_2yy">72dp</dimen>
+    <!--双行内容(3)，有图标(y)，有图画(y)-->
+    <dimen name="md_vertical_body_3yy">216dp</dimen>
 
     <!--Material Design horizontal Size-->
     <dimen name="md_horizontal_left_icon">16dp</dimen>
@@ -53,5 +55,8 @@
     <!--Material Design Image Size-->
     <dimen name="md_image">40dp</dimen>
     <dimen name="md_icon">20dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 
 </resources>
