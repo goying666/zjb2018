@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    tools:context="renchaigao.com.zjb.team.create.createTeamSetPeopleActivity">
 
     <include layout="@layout/activity_create_team_toolbar" />
 
@@ -20,21 +22,8 @@
 
             <include layout="@layout/activity_create_team_basic_information" />
 
-            <include layout="@layout/activity_create_team_datetime" />
-
             <include layout="@layout/activity_create_team_people_number" />
 
-            <include layout="@layout/activity_create_team_place" />
-
-            <include layout="@layout/activity_create_team_game" />
-
-            <include layout="@layout/activity_create_team_other_information" />
-
-            <include layout="@layout/activity_create_team_pwd" />
-
-            <include layout="@layout/activity_create_team_join" />
-
-            <include layout="@layout/activity_create_team_spend_style" />
 
             <include layout="@layout/activity_create_team_button" />
 

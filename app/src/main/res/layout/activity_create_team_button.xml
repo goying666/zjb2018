@@ -11,38 +11,46 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <LinearLayout
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/button_create_team_cancle"
                 android:layout_width="120dp"
                 android:layout_height="32dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
                 android:background="#fafafa"
-                android:text="放弃"
+                android:text="取消"
                 android:textColor="#63b5f5"
-                android:textSize="@dimen/md_text_size_button" />
-            <Button
-                android:layout_width="62dp"
-                android:layout_height="wrap_content"
-                android:background="#fafafa"
-                android:textColor="#63b5f5"
-                android:text=""/>
+                android:textSize="@dimen/md_text_size_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_create_team_next"
                 android:layout_width="120dp"
                 android:layout_height="32dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="8dp"
                 android:background="#63b5f5"
                 android:elevation="10dp"
                 android:text="下一步"
                 android:textColor="#fafafa"
-                android:textSize="@dimen/md_text_size_button" />
+                android:textSize="@dimen/md_text_size_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
-        </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/textview_create_information"
