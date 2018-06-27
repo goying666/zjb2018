@@ -33,6 +33,10 @@
         <activity
             android:name=".Activity_Login_All"
             android:label="@string/title_activity__login__all" />
+        <activity
+            android:name=".team.create.myTeam"
+            android:label="@string/title_activity_my_team"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

@@ -34,4 +34,5 @@
             app:title="创建队伍"
             app:titleTextColor="@color/md_text_color_headline" />
     </android.support.design.widget.CollapsingToolbarLayout>
+
 </android.support.design.widget.AppBarLayout>

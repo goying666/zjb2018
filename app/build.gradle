@@ -40,6 +40,8 @@ dependencies {
     compile 'org.projectlombok:lombok:1.16.8'
 //    provided "org.projectlombok:lombok:1.16.18"
     compile 'org.glassfish:javax.annotation:10.0-b28'
+    // https://mvnrepository.com/artifact/de.hdodenhof/circleimageview
+    compile group: 'de.hdodenhof', name: 'circleimageview', version: '2.2.0'
 
 
 }

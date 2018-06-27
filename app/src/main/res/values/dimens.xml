@@ -59,4 +59,10 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
 
+    <!--create team place image -->
+    <dimen name="image_three_x_size">110dp</dimen>
+    <dimen name="image_three_y_size">110dp</dimen>
+    <dimen name="image_user_size_m">25dp</dimen>
+
+
 </resources>

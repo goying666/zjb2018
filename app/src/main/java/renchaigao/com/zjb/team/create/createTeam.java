@@ -1,21 +1,17 @@
 package renchaigao.com.zjb.team.create;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,12 +34,14 @@ public class createTeam extends AppCompatActivity {
             people_min_textview, people_max_textview,ct_people_selectinfo_textview_value_min,ct_people_selectinfo_textview_value_max;
 
     private LinearLayout id_activity_create_team_datetime,
-            id_activity_create_team_people_number, id_activity_create_team_datetime_selectinfo, id_activity_create_team_time_selectinfo;
+            id_activity_create_team_people_number,
+            id_activity_create_team_datetime_selectinfo,
+            id_activity_create_team_time_selectinfo,
+            id_activity_create_team_game,
+            id_activity_create_team_place;
     private Button create_team_cancle, create_team_next;
     private ConstraintLayout
             id_activity_create_team_basic_information,
-            id_activity_create_team_place,
-            id_activity_create_team_game,
             id_activity_create_team_pwd,
             id_activity_create_team_join,
             id_activity_create_team_spend_style,
